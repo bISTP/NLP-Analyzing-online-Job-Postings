@@ -24,7 +24,7 @@ Providing solutions to various Business Problems using Supervised and Unsupervis
   The data was obtained from Kaggle competition. Each row represents a job post. The dataset representation is tabular, but many of the columns are textual/unstructured in nature. Most notably, the columns jobDescription, JobRequirement, RequiredQual, ApplicationP and AboutC are textual. The column jobpost is an amalgamation of these various textual columns.
   
 ### Key Data Columns Description:
-<img src='https://user-images.githubusercontent.com/87608109/153067103-b5a01b20-7c94-4995-bb1f-a778e5edcf16.png', alt='Data Dictionary', width='1000' />
+<img src="https://user-images.githubusercontent.com/87608109/153067103-b5a01b20-7c94-4995-bb1f-a778e5edcf16.png", alt="Data Dictionary", width="1000" />
 
 *Also provided sample job posting (attached with data set)*
-<img src='https://user-images.githubusercontent.com/87608109/153067413-2f324941-a5a5-4e8d-83c9-6c9ccff3bcff.png', alt='Job Posting Sample', width='1000' />
+<img src="https://user-images.githubusercontent.com/87608109/153067413-2f324941-a5a5-4e8d-83c9-6c9ccff3bcff.png", alt="Job Posting Sample", width="1000" />
