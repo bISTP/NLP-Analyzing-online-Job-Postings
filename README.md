@@ -15,10 +15,10 @@ Providing solutions to various Business Problems using Supervised and Unsupervis
 
 #### Text Mining Goals:
 *The text mining goals is a set of sub-goals to answer our business questions:*
-- For the IT Job classification business question, you should aim to create supervised learning classification models that are able to classify based on the job text data accurately, is it an IT job.
-- On the business question of Job Nature and Company Profiles. Unsupervised learning techniques, such as topic modelling and other techniques such as term frequency counting will be applied to the data, including time period segmented dataset. Qualitative assessment will be done on the results to help us understand the job postings.
-- To understand the desired characteristics and skill-sets demanded by employers in the job ads, unsupervised learning methods such as K-means clustering will be used after appropriate dimension reduction.
-- For Job Queries business question, we propose exploring the usage of Latent Semantic Model and Matrix Similarity methods for information retrieval. The results will be assessed qualitatively. To return the top 5 most similar job posting, the job text data are vectorised using different models such as word2vec, and doc2vec and similarity scores are obtained using cosine similarity scores, ranked and returned as the answer which is then evaluated individually for relevance.
+- For the IT Job classification business question, you should aim to create **supervised learning** classification models that are able to classify based on the job text data accurately, is it an IT job.
+- On the business question of Job Nature and Company Profiles. **Unsupervised learning** techniques, such as **topic modelling** and other techniques such as **term frequency** counting will be applied to the data, including time period segmented dataset. Qualitative assessment will be done on the results to help us understand the job postings.
+- To understand the desired characteristics and skill-sets demanded by employers in the job ads, unsupervised learning methods such as **K-means clustering** will be used after appropriate **dimension reduction**.
+- For Job Queries business question, we propose exploring the usage of **Latent Semantic Model** and **Matrix Similarity** methods for information retrieval. The results will be assessed qualitatively. To return the top 5 most similar job posting, the job text data are vectorised using different models such as **word2vec**, and **doc2vec** and similarity scores are obtained using **cosine similarity** scores, ranked and returned as the answer which is then evaluated individually for relevance.
 
 ## Data Understanding:
   The data was obtained from Kaggle competition. Each row represents a job post. The dataset representation is tabular, but many of the columns are textual/unstructured in nature. Most notably, the columns jobDescription, JobRequirement, RequiredQual, ApplicationP and AboutC are textual. The column jobpost is an amalgamation of these various textual columns.
@@ -27,4 +27,5 @@ Providing solutions to various Business Problems using Supervised and Unsupervis
 <img src="https://user-images.githubusercontent.com/87608109/153067103-b5a01b20-7c94-4995-bb1f-a778e5edcf16.png" alt="Data Dictionary" width="1000" />
 
 *Also provided sample job posting (attached with data set)*
+
 <img src="https://user-images.githubusercontent.com/87608109/153067413-2f324941-a5a5-4e8d-83c9-6c9ccff3bcff.png" alt="Job Posting Sample" width="1000" />
